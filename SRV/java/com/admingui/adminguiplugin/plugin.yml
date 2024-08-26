@@ -1,1 +1,11 @@
-
+name: AdminGUIPlugin
+version: 1.0
+main: com.admingui.adminguiplugin.AdminGUIPlugin
+api-version: 1.16
+permissions:
+  mod.test:
+    description: Allows access to the admin GUI
+    default: op
+commands:
+  admingui:
+    description: Opens the admin GUI
